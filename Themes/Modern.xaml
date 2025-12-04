@@ -1,0 +1,88 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!-- Palette & typography -->
+  <Color x:Key="AccentColor">#FF2D89EF</Color>
+  <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+  <SolidColorBrush x:Key="BackgroundBrush">#FFF6F8FA</SolidColorBrush>
+  <SolidColorBrush x:Key="CardBrush">#FFFFFFFF</SolidColorBrush>
+  <SolidColorBrush x:Key="SubtleBorderBrush">#FFE6E6E6</SolidColorBrush>
+  <SolidColorBrush x:Key="MutedTextBrush">#8A000000</SolidColorBrush>
+
+  <FontFamily x:Key="AppFont">Segoe UI Variable Text</FontFamily>
+
+  <!-- Global window defaults -->
+  <Style TargetType="Window">
+    <Setter Property="Background" Value="{StaticResource BackgroundBrush}"/>
+    <Setter Property="FontFamily" Value="{StaticResource AppFont}"/>
+    <Setter Property="Foreground" Value="Black"/>
+  </Style>
+
+  <!-- Card style for list items -->
+  <Style x:Key="CardBorder" TargetType="Border">
+    <Setter Property="Background" Value="{StaticResource CardBrush}"/>
+    <Setter Property="CornerRadius" Value="8"/>
+    <Setter Property="Padding" Value="8"/>
+    <Setter Property="BorderBrush" Value="{StaticResource SubtleBorderBrush}"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="SnapsToDevicePixels" Value="True"/>
+  </Style>
+
+  <!-- Accent button -->
+  <Style x:Key="AccentButton" TargetType="Button">
+    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+    <Setter Property="Foreground" Value="White"/>
+    <Setter Property="Padding" Value="8,6"/>
+    <Setter Property="BorderThickness" Value="0"/>
+    <Setter Property="Cursor" Value="Hand"/>
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="Button">
+          <Border Background="{TemplateBinding Background}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+          </Border>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+    <Style.Triggers>
+      <Trigger Property="IsMouseOver" Value="True">
+        <Setter Property="Opacity" Value="0.95"/>
+      </Trigger>
+      <Trigger Property="IsPressed" Value="True">
+        <Setter Property="Opacity" Value="0.9"/>
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+
+  <!-- TextBox base -->
+  <Style TargetType="TextBox">
+    <Setter Property="Background" Value="White"/>
+    <Setter Property="BorderBrush" Value="{StaticResource SubtleBorderBrush}"/>
+    <Setter Property="BorderThickness" Value="1"/>
+    <Setter Property="Padding" Value="8"/>
+    <Setter Property="Foreground" Value="Black"/>
+  </Style>
+
+  <!-- ListBoxItem: subtle hover/selection -->
+  <Style TargetType="ListBoxItem">
+    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+    <Setter Property="Padding" Value="0"/>
+    <Setter Property="Margin" Value="0"/>
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="ListBoxItem">
+          <Border x:Name="Bd" Background="Transparent">
+            <ContentPresenter/>
+          </Border>
+          <ControlTemplate.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+              <Setter TargetName="Bd" Property="Background" Value="#FFF0F8FF"/>
+            </Trigger>
+            <Trigger Property="IsMouseOver" Value="True">
+              <Setter TargetName="Bd" Property="Background" Value="#FFF8FBFF"/>
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+</ResourceDictionary>

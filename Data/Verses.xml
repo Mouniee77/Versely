@@ -1,0 +1,322 @@
+<Emotions>
+
+	<!-- Emotion 1: Joy -->
+	<Emotion Name="Joy">
+		<Verse>
+			<Text>Psalm 16:11 — You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore.</Text>
+			<Meaning>This verse reminds us God guides our steps and that true, lasting joy is found in His presence.</Meaning>
+			<Prayer>Lord, open my eyes to Your path and fill me with Your lasting joy. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Philippians 4:4 — Rejoice in the Lord always; again I will say, Rejoice.</Text>
+			<Meaning>Paul encourages continual joy that rests in relationship with Christ rather than circumstances.</Meaning>
+			<Prayer>Father, help me to rejoice in You today, whatever my situation. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 118:24 — This is the day the Lord has made; let us rejoice and be glad in it.</Text>
+			<Meaning>A reminder to celebrate each day as a gift from God and find reasons for gladness.</Meaning>
+			<Prayer>Thank You, Lord, for this day; help me to rejoice and see Your goodness. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>James 1:17 — Every good and perfect gift is from above.</Text>
+			<Meaning>All blessings originate from God, who gives generously and intentionally.</Meaning>
+			<Prayer>Gracious Giver, thank You for every gift—large and small. Teach me gratitude. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>1 Thessalonians 5:16 — Rejoice always.</Text>
+			<Meaning>A short, powerful command pointing us to a joyful posture of heart toward God.</Meaning>
+			<Prayer>Holy Spirit, cultivate a joyful heart in me that reflects Your presence. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 2: Sadness -->
+	<Emotion Name="Sadness">
+		<Verse>
+			<Text>Psalm 34:18 — The LORD is near to the brokenhearted and saves the crushed in spirit.</Text>
+			<Meaning>God is especially close to those who are hurting and offers rescue and comfort.</Meaning>
+			<Prayer>Lord, be near my broken heart; heal and lift me up in Your compassion. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Matthew 5:4 — Blessed are those who mourn, for they shall be comforted.</Text>
+			<Meaning>Jesus promises comfort to those who grieve, showing God's care for our sorrow.</Meaning>
+			<Prayer>Comforter, wrap me in Your peace and console me in my mourning. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 147:3 — He heals the brokenhearted and binds up their wounds.</Text>
+			<Meaning>God actively heals emotional and spiritual wounds, restoring those who are hurt.</Meaning>
+			<Prayer>Healer, mend my wounds and restore hope where I feel broken. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Revelation 21:4 — He will wipe every tear from their eyes.</Text>
+			<Meaning>One day God will remove all suffering and sorrow, promising ultimate consolation.</Meaning>
+			<Prayer>God of hope, remind me of Your coming restoration and dry my tears. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 42:11 — Why, my soul, are you downcast? Put your hope in God.</Text>
+			<Meaning>A call to redirect our sadness into confident hope in God's character and help.</Meaning>
+			<Prayer>Lord, when I am downcast, renew my hope and steady my soul in You. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 3: Fear -->
+	<Emotion Name="Fear">
+		<Verse>
+			<Text>Isaiah 41:10 — Fear not, for I am with you; be not dismayed, for I am your God.</Text>
+			<Meaning>God reassures us of His presence and power, which removes the reason for fear.</Meaning>
+			<Prayer>Lord, replace my fear with awareness of Your presence and strength. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>2 Timothy 1:7 — For God gave us a spirit not of fear but of power and love and self-control.</Text>
+			<Meaning>Believers receive a spirit that empowers, loves, and disciplines rather than terrifies.</Meaning>
+			<Prayer>Holy Spirit, fill me with courage, love, and self-control today. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 56:3 — When I am afraid, I put my trust in You.</Text>
+			<Meaning>The appropriate response to fear is trusting God and relying on His faithfulness.</Meaning>
+			<Prayer>I trust You now, Lord; calm my fears and steady my heart. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Joshua 1:9 — Be strong and courageous; do not be afraid, for the LORD your God is with you.</Text>
+			<Meaning>God commands and empowers courage because His presence accompanies us.</Meaning>
+			<Prayer>God, grant me strength and courage as I face what scares me today. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 23:4 — Even though I walk through the valley of the shadow of death, I will fear no evil.</Text>
+			<Meaning>Even in the darkest places, God's presence removes the power of fear.</Meaning>
+			<Prayer>Shepherd, walk with me through every valley and banish my fear. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 4: Weakness -->
+	<Emotion Name="Weakness">
+		<Verse>
+			<Text>Philippians 4:13 — I can do all things through Christ who strengthens me.</Text>
+			<Meaning>Christ supplies the inner strength we lack so we can endure and serve faithfully.</Meaning>
+			<Prayer>Lord Jesus, empower me with Your strength where I am weak. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Isaiah 40:31 — Those who wait upon the Lord shall renew their strength.</Text>
+			<Meaning>Patience and hope in God lead to renewed ability and endurance from Him.</Meaning>
+			<Prayer>God, renew my strength as I wait upon You; lift me up on wings like eagles. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>2 Corinthians 12:9 — My grace is sufficient for you, for My power is made perfect in weakness.</Text>
+			<Meaning>God's grace is enough; His power shines brightest when we admit weakness.</Meaning>
+			<Prayer>Father, help me to lean on Your grace and find power in my dependence on You. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 73:26 — My flesh and my heart may fail, but God is the strength of my heart.</Text>
+			<Meaning>Even when our bodies and emotions fail, God remains our sustaining strength.</Meaning>
+			<Prayer>Sustainer, be my strength when I am exhausted; uphold my heart. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Nehemiah 8:10 — The joy of the LORD is your strength.</Text>
+			<Meaning>Spiritual joy rooted in God becomes the fuel that strengthens our lives.</Meaning>
+			<Prayer>Lord, fill me with Your joy so I may find strength to continue. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 5: Thankfulness -->
+	<Emotion Name="Thankfulness">
+		<Verse>
+			<Text>Psalm 100:4 — Enter his gates with thanksgiving, and his courts with praise.</Text>
+			<Meaning>Worship begins with gratitude—approach God with thankful hearts and praise.</Meaning>
+			<Prayer>Gracious God, I enter Your presence with thanksgiving; receive my praise. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>1 Thessalonians 5:18 — Give thanks in all circumstances.</Text>
+			<Meaning>God calls us to a posture of thankfulness even amid trials because He is good.</Meaning>
+			<Prayer>Lord, teach me to give thanks in every situation and trust Your goodness. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Philippians 4:4 — Rejoice in the Lord always; again I will say, rejoice.</Text>
+			<Meaning>Joy and gratitude flow from knowing the Lord and His unchanging character.</Meaning>
+			<Prayer>Father, help me rejoice in You continually and remember Your blessings. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 118:24 — This is the day that the Lord has made; let us rejoice and be glad in it.</Text>
+			<Meaning>Each day is a divine gift—respond with gladness and gratitude for today’s mercies.</Meaning>
+			<Prayer>Thank You for this day, Lord; help me to live it with gratitude and gladness. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>James 1:17 — Every good and perfect gift is from above.</Text>
+			<Meaning>All that is good comes from God; recognizing this cultivates gratefulness.</Meaning>
+			<Prayer>Thank You, Heavenly Father, for Your gifts; help me to appreciate them rightly. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 6: GuiltOrShame -->
+	<Emotion Name="GuiltOrShame">
+		<Verse>
+			<Text>Romans 8:1 — There is therefore now no condemnation for those who are in Christ Jesus.</Text>
+			<Meaning>Through Christ we are released from condemnation—our guilt is forgiven in Him.</Meaning>
+			<Prayer>Thank You, Jesus, for freeing me from condemnation; help me live in that freedom. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>1 John 1:9 — If we confess our sins, He is faithful and just to forgive us.</Text>
+			<Meaning>Confession leads to forgiveness because God promises to cleanse those who repent.</Meaning>
+			<Prayer>Lord, I confess my sins; forgive me and renew a clean heart within me. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 51:10 — Create in me a clean heart, O God.</Text>
+			<Meaning>A plea for inner renewal and purity after wrongdoing or spiritual failure.</Meaning>
+			<Prayer>God, make my heart pure and restore the joy of Your salvation in me. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Isaiah 1:18 — Though your sins are like scarlet, they shall be white as snow.</Text>
+			<Meaning>God offers thorough forgiveness that transforms even deep stains into purity.</Meaning>
+			<Prayer>Father, wash me clean from all guilt; let Your forgiveness cover me fully. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Micah 7:19 — He will cast all our sins into the depths of the sea.</Text>
+			<Meaning>God not only forgives but removes our sins, disposing of them completely.</Meaning>
+			<Prayer>Thank You, Lord, for removing my sins; help me to live forgiven and free. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 7: Guidance -->
+	<Emotion Name="Guidance">
+		<Verse>
+			<Text>Proverbs 3:5-6 — Trust in the LORD with all your heart and lean not on your own understanding.</Text>
+			<Meaning>Trusting God and submitting to Him brings clear direction in life.</Meaning>
+			<Prayer>Lord, I trust You; guide my steps and reveal Your will for me. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 32:8 — I will instruct you and teach you in the way you should go.</Text>
+			<Meaning>God personally guides and instructs those who listen to Him.</Meaning>
+			<Prayer>Teach me, Lord; open my ears to Your instruction and lead me in Your way. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>James 1:5 — If any of you lacks wisdom, let him ask God.</Text>
+			<Meaning>God generously gives wisdom to those who seek it humbly in prayer.</Meaning>
+			<Prayer>Father, I need wisdom—please give me discernment for the decisions before me. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Isaiah 30:21 — Your ears shall hear a voice saying, This is the way, walk in it.</Text>
+			<Meaning>God will make His path known to us when we tune our hearts to Him.</Meaning>
+			<Prayer>Lord, tune my heart to hear Your voice and follow the path You show. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 119:105 — Your word is a lamp to my feet and a light to my path.</Text>
+			<Meaning>Scripture provides practical guidance and illumines each next step.</Meaning>
+			<Prayer>God, let Your Word guide every choice I make today. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 8: Loneliness -->
+	<Emotion Name="Loneliness">
+		<Verse>
+			<Text>Deuteronomy 31:6 — The LORD Himself goes before you and will never leave you.</Text>
+			<Meaning>God promises His constant presence even when we feel alone.</Meaning>
+			<Prayer>Lord, remind me You go before me and will never abandon me. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 27:10 — Though my father and mother forsake me, the LORD will receive me.</Text>
+			<Meaning>Even if human support fails, God welcomes and cares for us fully.</Meaning>
+			<Prayer>Receive me, Lord, and surround me with Your loving presence. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>John 14:18 — I will not leave you as orphans; I will come to you.</Text>
+			<Meaning>Jesus assures believers that He will remain with them and provide belonging.</Meaning>
+			<Prayer>Jesus, thank You for not leaving me alone; help me sense Your nearness. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Matthew 28:20 — I am with you always, to the very end of the age.</Text>
+			<Meaning>Christ's promise of perpetual presence brings comfort and companionship.</Meaning>
+			<Prayer>Lord Jesus, Your presence is my hope—stay with me now and always. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 139:7-10 — Where shall I go from your Spirit? Your hand shall lead me.</Text>
+			<Meaning>There is nowhere beyond God's presence; He is intimately with us everywhere.</Meaning>
+			<Prayer>God, thank You that I am never truly alone—lead me by Your hand. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 9: Anger -->
+	<Emotion Name="Anger">
+		<Verse>
+			<Text>Ephesians 4:26 — Be angry and do not sin.</Text>
+			<Meaning>Anger itself is not always sinful, but it must be handled without sinning.</Meaning>
+			<Prayer>Lord, guide my anger so it does not lead me into sin; give me patience. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Proverbs 15:1 — A gentle answer turns away wrath.</Text>
+			<Meaning>A calm and kind response can defuse conflict and prevent harm.</Meaning>
+			<Prayer>Help me respond gently and wisely when anger rises. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>James 1:19-20 — Be quick to hear, slow to speak, slow to anger.</Text>
+			<Meaning>Wisdom in relationships begins with listening and restraint rather than haste.</Meaning>
+			<Prayer>Holy Spirit, slow my tongue and teach me to listen before reacting. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 37:8 — Refrain from anger and turn from wrath.</Text>
+			<Meaning>Choosing to let go of anger preserves righteousness and peace.</Meaning>
+			<Prayer>Lord, help me to refrain from wrath and choose Your ways of peace. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Colossians 3:8 — Put away anger, wrath, malice, and slander.</Text>
+			<Meaning>Believers are called to put off destructive attitudes and speech and reflect Christ.</Meaning>
+			<Prayer>Father, cleanse my heart of anger and help me replace it with love. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 10: Anxiety -->
+	<Emotion Name="Anxiety">
+		<Verse>
+			<Text>Philippians 4:6-7 — Do not be anxious about anything; pray about everything.</Text>
+			<Meaning>Bring worries to God in prayer so His peace can guard your heart and mind.</Meaning>
+			<Prayer>Lord, I bring my anxieties to You; fill me with Your peace. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>1 Peter 5:7 — Cast all your anxieties on Him because He cares for you.</Text>
+			<Meaning>God cares deeply and invites us to unload our worries onto Him.</Meaning>
+			<Prayer>Thank You, God, for caring—help me to cast my cares upon You now. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Matthew 6:34 — Do not worry about tomorrow.</Text>
+			<Meaning>Focus on today's responsibilities and trust God's provision for the future.</Meaning>
+			<Prayer>Father, teach me to live day by day and trust You for what's ahead. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>John 14:27 — My peace I give you; let not your hearts be troubled.</Text>
+			<Meaning>Jesus offers His peace as a gift that calms troubled hearts amid stress.</Meaning>
+			<Prayer>Jesus, give me Your peace and calm my troubled heart right now. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 55:22 — Cast your burden on the LORD, and He will sustain you.</Text>
+			<Meaning>God invites us to entrust our burdens to Him and promises His sustaining help.</Meaning>
+			<Prayer>I cast my burdens on You, Lord; sustain me and carry what I cannot carry. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+	<!-- Emotion 11: Hope -->
+	<Emotion Name="Hope">
+		<Verse>
+			<Text>Jeremiah 29:11 — For I know the plans I have for you, declares the LORD.</Text>
+			<Meaning>God has good plans for our future—plans filled with hope and purpose.</Meaning>
+			<Prayer>God, help me trust Your plans and hold on to hope even in uncertainty. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Romans 15:13 — May the God of hope fill you with all joy and peace.</Text>
+			<Meaning>God is the source of hope, and He pours joy and peace into believing hearts.</Meaning>
+			<Prayer>Father of hope, fill me with Your joy and peace as I trust You. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Lamentations 3:22-23 — His mercies never end; they are new every morning.</Text>
+			<Meaning>God's unfailing mercy gives us fresh reasons for hope each day.</Meaning>
+			<Prayer>Thank You for Your mercies, Lord; renew my hope every morning. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Psalm 121:1-2 — My help comes from the LORD, the Maker of heaven and earth.</Text>
+			<Meaning>Our help and hope are anchored in the Creator who watches over us.</Meaning>
+			<Prayer>Maker of heaven and earth, be my help and anchor my hope today. Amen.</Prayer>
+		</Verse>
+		<Verse>
+			<Text>Isaiah 43:19 — Behold, I am doing a new thing; do you not perceive it?</Text>
+			<Meaning>God can bring new beginnings—look for His renewing work and have hope.</Meaning>
+			<Prayer>Lord, open my eyes to the new things You are doing and strengthen my hope. Amen.</Prayer>
+		</Verse>
+	</Emotion>
+
+</Emotions>
