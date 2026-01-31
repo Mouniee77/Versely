@@ -4,7 +4,6 @@
         xmlns:local="clr-namespace:WpfApp1"
         Title="Emotions" Height="450" Width="800">
     <Grid Margin="12">
-        <!-- Removed outer ScrollViewer so items can wrap inside the ListBox's panel -->
         <ListBox ItemsSource="{Binding Emotions}"
                  BorderThickness="0"
                  Background="Transparent"
@@ -13,22 +12,19 @@
                  ScrollViewer.CanContentScroll="False">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <!-- WrapPanel will flow items left-to-right and wrap to new rows,
-                         ensuring no horizontal scrollbar and making more items visible. -->
                     <WrapPanel IsItemsHost="True" Orientation="Horizontal" VerticalAlignment="Top"/>
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
 
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <!-- Use MinWidth/MinHeight instead of fixed Width/Height so items can shrink
-                         and wrap to additional rows when needed. -->
-                    <Button Click="EmotionButton_Click"
-                            Tag="{Binding}"
-                            Margin="8"
-                            MinWidth="120"
-                            MinHeight="90"
-                            Padding="8">
+                    <Button
+                        Margin="8"
+                        MinWidth="120"
+                        MinHeight="90"
+                        Padding="8"
+                        Command="{Binding DataContext.OpenVersesCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                        CommandParameter="{Binding}">
                         <StackPanel>
                             <TextBlock Text="{Binding Name}"
                                        FontWeight="Bold"

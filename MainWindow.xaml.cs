@@ -3,6 +3,7 @@ using System.Linq;
 using System.Windows;
 using System.Xml.Linq;
 using WpfApp1.Models;
+using WpfApp1.ViewModels;
 
 namespace WpfApp1
 {
@@ -13,7 +14,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
+            DataContext = new MainViewModel();
             LoadEmotionsFromXml("Data/Verses.xml");
         }
 
