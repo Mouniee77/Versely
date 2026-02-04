@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Versely.Interfaces
 {
-    interface IDialogService
+  public  interface IDialogService
     {
         void ShowVerses(string title, object data);
     }

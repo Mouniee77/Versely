@@ -34,31 +34,51 @@ namespace WpfApp1.ViewModels
         public RelayCommand ClearSelectionCommand { get; }
       //  public ICommand OpenVersesCommand { get; }
 
-        public MainViewModel()
-        {
-            _dialogService = new DialogService();
+//        public MainViewModel()
+//        {
+//            _dialogService = new DialogService();
 
-            _emotionService = new EmotionService();
+//            _emotionService = new EmotionService();
+//            Emotions = _emotionService.LoadEmotions("Data/Verses.xml");
+
+//            //OpenVersesCommand = new RelayCommand(
+//            //     execute: OpenVerses,
+//            //     canExecute: () => SelectedEmotion != null
+//            // );
+
+
+//            OpenVersesCommand = new RelayCommand(
+//    execute: async () => await OpenVersesAsync(),
+//    canExecute: () => SelectedEmotion != null && !IsBusy
+//);
+
+
+//            ClearSelectionCommand = new RelayCommand(
+//                execute: () => SelectedEmotion = null,
+//                canExecute: () => SelectedEmotion != null
+//            );
+
+
+//        }
+
+        public MainViewModel(
+            EmotionService emotionService,
+            IDialogService dialogService)
+        {
+            _emotionService = emotionService;
+            _dialogService = dialogService;
+
             Emotions = _emotionService.LoadEmotions("Data/Verses.xml");
 
-            //OpenVersesCommand = new RelayCommand(
-            //     execute: OpenVerses,
-            //     canExecute: () => SelectedEmotion != null
-            // );
-
-
             OpenVersesCommand = new RelayCommand(
-    execute: async () => await OpenVersesAsync(),
-    canExecute: () => SelectedEmotion != null && !IsBusy
-);
-
-
-            ClearSelectionCommand = new RelayCommand(
-                execute: () => SelectedEmotion = null,
-                canExecute: () => SelectedEmotion != null
+                async () => await OpenVersesAsync(),
+                () => SelectedEmotion != null && !IsBusy
             );
 
-
+            ClearSelectionCommand = new RelayCommand(
+                () => SelectedEmotion = null,
+                () => SelectedEmotion != null
+            );
         }
         private async Task OpenVersesAsync()
         {

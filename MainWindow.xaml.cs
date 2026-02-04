@@ -14,7 +14,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
+          //  DataContext = new MainViewModel();
            // LoadEmotionsFromXml("Data/Verses.xml");
         }
 
