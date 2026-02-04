@@ -5,50 +5,114 @@
         Height="450"
         Width="800">
 
-    <Grid Margin="12">
+    <!-- ROOT GRID (ONLY ONE!) -->
+    <Grid>
 
-        <ListBox ItemsSource="{Binding Emotions}"
-                 BorderThickness="0"
-                 Background="Transparent"
-                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                 ScrollViewer.VerticalScrollBarVisibility="Disabled">
+        <!-- ===================== -->
+        <!-- LAYER 1: MAIN CONTENT -->
+        <!-- ===================== -->
+        <Grid Margin="12">
 
-            <ListBox.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <WrapPanel IsItemsHost="True"
-                               Orientation="Horizontal"
-                               VerticalAlignment="Top" />
-                </ItemsPanelTemplate>
-            </ListBox.ItemsPanel>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <Button Margin="8"
-                            MinWidth="120"
-                            MinHeight="90"
-                            Padding="8"
-                            Command="{Binding DataContext.OpenVersesCommand,
-                                              RelativeSource={RelativeSource AncestorType=Window}}"
-                            CommandParameter="{Binding}">
+            <!-- EMOTIONS -->
+            <ListBox Grid.Row="0"
+                     ItemsSource="{Binding Emotions}"
+                     SelectedItem="{Binding SelectedEmotion, Mode=TwoWay}"
+                     BorderThickness="0"
+                     Background="Transparent"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     ScrollViewer.VerticalScrollBarVisibility="Disabled">
 
-                        <StackPanel>
-                            <TextBlock Text="{Binding Name}"
-                                       FontWeight="Bold"
-                                       HorizontalAlignment="Center"
-                                       TextWrapping="Wrap" />
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
 
-                            <TextBlock Text="{Binding Verses.Count,
-                                              StringFormat=Verses: {0}}"
-                                       FontSize="11"
-                                       Foreground="Gray"
-                                       HorizontalAlignment="Center" />
-                        </StackPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Button Style="{StaticResource EmotionCardButtonStyle}"
+                                Command="{Binding DataContext.OpenVersesCommand,
+                                                  RelativeSource={RelativeSource AncestorType=Window}}"
+                                CommandParameter="{Binding}">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Name}"
+                                           FontWeight="SemiBold"
+                                           FontSize="14"
+                                           HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Verses.Count,
+                                                  StringFormat='Verses: {0}'}"
+                                           FontSize="11"
+                                           Foreground="Gray"
+                                           HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
 
-                    </Button>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#FFE3F2FD"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
 
-        </ListBox>
+            <!-- COMMAND BUTTONS -->
+            <StackPanel Grid.Row="1"
+                        Orientation="Vertical"
+                        Margin="0,12,0,0">
+
+                <Button Content="Open Verses"
+                        Height="36"
+                        Margin="0,0,0,8"
+                        Command="{Binding OpenVersesCommand}" />
+
+                <Button Content="Clear Selection"
+                        Height="36"
+                        Command="{Binding ClearSelectionCommand}" />
+            </StackPanel>
+
+        </Grid>
+
+        <!-- ===================== -->
+        <!-- LAYER 2: BUSY OVERLAY -->
+        <!-- ===================== -->
+        <Grid Background="#80000000"
+              Visibility="{Binding IsBusy,
+                                   Converter={StaticResource BoolToVisibilityConverter}}">
+
+            <Border Background="White"
+                    Padding="24"
+                    CornerRadius="12"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+                <StackPanel>
+                    <TextBlock Text="Loading…"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               HorizontalAlignment="Center" />
+
+                    <TextBlock Text="Please wait"
+                               Margin="0,8,0,0"
+                               Foreground="Gray"
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+
+            </Border>
+
+        </Grid>
 
     </Grid>
+
 </Window>

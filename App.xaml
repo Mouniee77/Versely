@@ -1,12 +1,71 @@
 ﻿<Application x:Class="WpfApp1.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Versely.Converters"
              StartupUri="MainWindow.xaml">
   <Application.Resources>
+      
     <ResourceDictionary>
       <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="Themes/Modern.xaml"/>
       </ResourceDictionary.MergedDictionaries>
-    </ResourceDictionary>
-  </Application.Resources>
+
+            <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+
+
+
+            <Style x:Key="EmotionCardButtonStyle" TargetType="Button">
+            <Setter Property="Padding" Value="12"/>
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="MinHeight" Value="90"/>
+            <Setter Property="Background" Value="#FFF5F5F5"/>
+            <Setter Property="BorderBrush" Value="#FFDDDDDD"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="8">
+                            <ContentPresenter
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <!-- Hover -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border"
+                                    Property="Background"
+                                    Value="#FFEDEDED"/>
+                            </Trigger>
+
+                            <!-- Press -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="Border"
+                                    Property="Background"
+                                    Value="#FFE0E0E0"/>
+                            </Trigger>
+
+                            <!-- Disabled -->
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Border"
+                                    Property="Opacity"
+                                    Value="0.5"/>
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+
 </Application>
